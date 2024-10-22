@@ -1,0 +1,10 @@
+IMPORTANT:  1-Make sure pylidc is the same version as specified in the requirements.txt
+            1-Go to the location of your instalation of the pylidc library (you can know where it is by doing pip show)
+            2-Go to the Contour.py file and in line 111 change it to:
+                                                                return np.c_[ij, k].astype(np.int64)
+
+            3-Go to the Annotation.py file and change all the np.int to np.int64 (there should only be 2 lines to change)
+            4-Go to the Annotation.py file and change all the np.float to np.float64 (there should only be 4 lines to change)
+
+            
+
