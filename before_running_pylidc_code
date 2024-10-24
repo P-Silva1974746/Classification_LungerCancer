@@ -5,6 +5,9 @@ IMPORTANT:  1-Make sure pylidc is the same version as specified in the requireme
 
             3-Go to the Annotation.py file and change all the np.int to np.int64 (there should only be 2 lines to change)
             4-Go to the Annotation.py file and change all the np.float to np.float64 (there should only be 4 lines to change)
+            5-Go to the Annotation.py file and change plt.cm.cmap_d.keys() for plt.colormaps() in line 745
+            5-Go to the Annotation.py file and change facecolors=plt.cm.cmap_d[cmap](t) for facecolors=plt.get_cmap(cmap)(t) in line 764
+
 
             
 
