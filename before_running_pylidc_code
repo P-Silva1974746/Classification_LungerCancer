@@ -1,3 +1,10 @@
+Don't forget to create the .pylidcrc file in your home directory with the following structure:
+
+[dicom]
+path = "your_path_to_the_directory_where_the_dataset_is_instsalled"/LIDC-IDRI
+warn = True
+
+
 IMPORTANT:  1-Make sure pylidc is the same version as specified in the requirements.txt
             1-Go to the location of your instalation of the pylidc library (you can know where it is by doing pip show)
             2-Go to the Contour.py file and in line 111 change it to:
